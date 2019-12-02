@@ -32,8 +32,8 @@
 ##### code working from locally saved data 
 ##### make sure to add your own relevant path
 
-ser<-read.csv("~//SDGSeriesamended.csv",header=T)
-data<-read.csv("~//SDGData.csv",header=T)
+ser<-read.csv("./SDGSeriesamended.csv",header=T)
+data<-read.csv("./SDGData.csv",header=T)
 
 ##adding SDG and target to SDGSeries
 
