@@ -90,7 +90,7 @@ repi<-(ni*ni-ni)/2  ##upper triangle
 ###downloaded data (24 Aug 2017) is in disaster131.csv
 
 
-disaster<-read.csv("~//disaster131.csv",header=T)
+disaster<-read.csv("./disaster131.csv",header=T)
 
 #QC
 # missing<-unique(disaster$iso)[!unique(disaster$iso)%in%unique(data$Country.Code)]
